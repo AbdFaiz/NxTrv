@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   const scrollTo = (id: string) => {
-    const el = document.getElementById(id);
+    const el = document.getElementById(id.replace("#", ""));
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }

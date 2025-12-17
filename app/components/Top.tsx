@@ -34,7 +34,7 @@ const Top = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <div className="flex flex-col w-full max-w-screen-7xl mx-auto px-8 py-16 bg-slate-100">
+    <div id="top" className="flex flex-col w-full max-w-screen-7xl mx-auto px-8 py-16 bg-slate-100">
       <h1 className="text-2xl md:text-4xl font-extrabold text-slate-800 mb-2">
         Top Destinations
       </h1>
